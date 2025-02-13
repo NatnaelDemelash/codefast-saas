@@ -3,7 +3,7 @@ export default function Header() {
     <section className="bg-base-200 px-8 py-4">
       <div className="flex justify-between items-center">
         <div className="text-xl font-semibold">CodeFastSaaS</div>
-        <div>
+        <div className="max-md:hidden">
           <ul className="flex items-center gap-12">
             <li>
               <a href="#">Pricing</a>
@@ -14,7 +14,7 @@ export default function Header() {
           </ul>
         </div>
         <div>
-          <button className="btn btn-primary">Login</button>
+          <button className="btn ">Login/Sign up</button>
         </div>
       </div>
     </section>

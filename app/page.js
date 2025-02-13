@@ -1,5 +1,6 @@
 import Button from '@/components/Buttont';
 import Header from '@/components/Header';
+import Pricing from '@/components/Pricing';
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Main Section */}
-      <section className="p-8 text-center">
+      <section className="px-8 py-24 text-center">
         <main className="max-w-3xl mx-auto flex flex-col items-center gap-4 py-24">
           <h1 className="text-4xl md:text-5xl mb-5 font-bold">
             Collect customer feedback to build better product
@@ -20,6 +21,9 @@ export default function Home() {
           <Button title="Go to Dashboard" variant="secondary" />
         </main>
       </section>
+
+      {/* Pricing Section */}
+      <Pricing />
     </>
   );
 }
