@@ -8,12 +8,12 @@ export default function Header() {
         <div className="max-md:hidden">
           <ul className="flex items-center gap-12">
             <li>
-              <a href="#" className="hover:text-yellow-400">
+              <a href="#pricing" className="hover:text-yellow-400">
                 Pricing
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-yellow-400">
+              <a href="#faq" className="hover:text-yellow-400">
                 FAQ
               </a>
             </li>
