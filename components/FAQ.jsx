@@ -25,7 +25,10 @@ const FAQs = [
 
 export default function FAQ() {
   return (
-    <section className="py-32 px-8 flex justify-between" id="faq">
+    <section
+      className="py-32 px-8 flex flex-col lg:flex-row items-center text-center justify-between"
+      id="faq"
+    >
       <div className="flex flex-col">
         <p className="text-sm uppercase text-yellow-400 font-bold mb-4">FAQ</p>
         <h1 className="max-w-xl text-4xl md:text-5xl mb-6">
