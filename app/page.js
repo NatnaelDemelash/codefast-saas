@@ -1,4 +1,4 @@
-import Button from '@/components/Buttont';
+import Button from '@/components/Button';
 import FAQ from '@/components/FAQ';
 import Header from '@/components/Header';
 import Pricing from '@/components/Pricing';
@@ -25,7 +25,7 @@ export default function Home() {
 
           {/* Text Section */}
           <div className="w-full lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
               Turn User Feedback into Your Competitive Edge
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">

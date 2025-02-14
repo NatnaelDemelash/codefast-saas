@@ -4,14 +4,15 @@ import { useState } from 'react';
 
 export default function FAQListItem({ faq }) {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <li key={faq.question} className="py-4 border-b border-slate-700 ">
+    <li key={faq.question} className="py-4 border-b border-slate-700">
       {/* Clickable Question */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="text-2xl w-full text-yellow-100 flex justify-between items-center"
+        className="text-2xl w-full text-gray-800 flex justify-between items-center text-left"
       >
-        <p> {faq.question}</p>
+        <p>{faq.question}</p>
 
         {isOpen ? (
           <svg
@@ -38,7 +39,12 @@ export default function FAQListItem({ faq }) {
         )}
       </button>
 
-      <div className={`${isOpen ? 'block' : 'hidden'} mt-3 mb-6 opacity-90`}>
+      {/* Answer */}
+      <div
+        className={`${
+          isOpen ? 'block' : 'hidden'
+        } mt-3 mb-6 opacity-90 text-left`}
+      >
         {faq.answer}
       </div>
     </li>
