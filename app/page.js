@@ -1,6 +1,7 @@
-import Button from '@/components/Buttont';
-import Header from '@/components/Header';
-import Pricing from '@/components/Pricing';
+import Button from "@/components/Buttont";
+import FAQ from "@/components/FAQ";
+import Header from "@/components/Header";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
 
       {/* Pricing Section */}
       <Pricing />
+
+      {/* FAQ Section */}
+      <FAQ />
     </>
   );
 }
